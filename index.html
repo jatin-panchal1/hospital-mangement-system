@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hospital management system</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="fav image.png">
+  </style>
+  </head>
+  <body>
+      <nav>
+        <img height="100px" width="120px" src="logo.png" alt="mainlogo" />
+        <div class="right">
+           <a href="#Home">Home</a>
+           <a href="#Services">services</a>
+           <a href="#About">About US</a>
+           <a href="#contact">Contact</a>
+        </div>
+      </nav>
+    <div class="hero">
+      Welcome to our Hospital management System
+    </div>
+    <div class="hero-content">
+
+      <p>Our Hospital Management System (HMS) is designed to simplify and improve the way hospitals operate. It allows efficient management of patient records, appointments, staff schedules, and medical resources. By streamlining these processes, HMS reduces manual errors, saves time, and ensures that patients receive timely and high-quality care. With an easy-to-use interface, doctors, nurses, and administrative staff can access important information quickly, improving overall hospital efficiency and patient satisfaction.</p>
+      <a href="#About" class = "hero-button">Learn More</a>
+    </div>
+    <div class="chatbot"></div>
+
+    <section id="About">
+    <h2>About Us</h2>
+    <p>Our Hospital Management System (HMS) is designed to make hospital operations easier and more efficient. 
+It helps manage patient records, appointments, staff schedules, and medical resources all in one place.</p>
+    <p>In this website we are showing the the clarty of our hospital management system like Hospital details - Beds are available or not, ICU is full or not, staff are good or not, guidance of patient is proper or not , about OPD or other facilities.</p>
+  </section>
+
+  <section id="Services">
+    <h2>Our Services</h2>
+    <div class="service-cards">
+      <div class="card">OPD</div>
+      <div class="card">Emergency</div>
+      <div class="card">Lab Tests</div>
+      <div class="card">Pharmacy</div>
+      <div class="card">Good staff</div>
+      <div class="card">Experienced Doctors</div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form>
+      <input type="text" placeholder="Name" required>
+      <input type="email" placeholder="Email" required>
+      <textarea placeholder="Message" required></textarea>
+      <button type="submit">Send</button>ā
+    </form>
+  </section>
+
+  <div class="para">
+    <b>Aayushman Hospital Management System</b>is a fully integrated & Configurable Healthcare Management ERP for Hospitals, Nursing Homes, Clinics, & other Healthcare facilities.
+  </div>
+
+<div class="gridbox">
+  <div class="grid-1">
+    <img src="assets/appoint.png" alt="">
+    <h2>Patient Appointment</h2>
+    <p>Patient can book their appointments at Hospital Desk or Online through Hospital Portal or App for a consultant as per available slot, Make payments and get notification for booked appointment on their mobile.</p>
+  </div>
+  <div class="grid-1">
+    <img src="assets/opd.png" alt="">
+    <h2>OPD Module</h2>
+    <p>OPD Management module streamlines the entire OPD cycle from Patient OP registration, Queue management, Billing, Consultant Computerised Prescription, Daycare scheduling, making it more efficient for both patients and healthcare providers.</p>
+  </div>
+  <div class="grid-1">
+    <img src="assets/ipd.png" alt="">
+    <h2>IPD Module</h2>
+    <p>Indoor Patient Management module helps to manage efficiently the Admission, Discharge, Transfer (A/D/T) process, Nursing Care, Patient provisional and final bills and Discharge Summary and many more.</p>
+  </div>
+  <div class="grid-1">
+    <img src="assets/blood-bank-1.png" alt="">
+    <h2>Blood Bank</h2>
+    <p>Blood Bank module helps to manage blood bank inventory, donor information, test analysis, billing, Cross match Report, Component wise stock, Donation Camps data & reporting in an efficient manner.</p>
+  </div>
+  <div class="grid-1">
+    <img src="assets/more.png.webp" alt="">
+    <h2>Other Modules</h2>
+    <p>Finance</p>
+    <p>Ambulance</p>
+    <p>House Keeping</p>
+    <p>Biomedical Waste</p>
+    <p>Rest Rooms</p>
+  </div>
+</div>
+
+<div class="inputs">
+  <div class="input1">
+    <h2>Appointment</h2>
+    <input type="text" placeholder="Patient Name">
+    <input type="text" placeholder="Patient's Age">
+    <input type="text" placeholder="Mobile no">
+    <input type="text" placeholder="Date of Appointment">
+    
+
+    <button>Submit</button>
+  </div>
+</div>
+<div class="bank">
+  <h2>About Blood Bank</h2>
+  <p> In our blood bank  all type of blood group are available in pure. We will give these blood packets in less amount because every patient has no huge amount of money so we will give blood in less amount to those according to their money , but in case of orphan children , poor old age people and many more helpless people
+  </p>
+</div>
+
+<div class="dashboard">
+  <img height="500px" width="800px" src="assets/dash (3).png" alt="dashboard">
+</div>
+<footer>
+  <div class="footer-item">
+    <div class="items">
+      <h3>Hopspital Management System</h3>
+      <p>Providing quality healthcare with modern technology and efficient management.</p>
+    </div>
+    <div class="contact">
+      <h3>Contact :-</h3>
+      <p>Email: support@hms.com</p>
+      <p>Phone: +91 8000158051</p>
+      <p>Address: Delhi, India</p>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>&copy; 2025 Hospital Management System | All Rights Reserved</p>
+  </div>
+</footer>
+<div class="chatbot-icon" id="chatbotIcon">
+        <svg viewBox="0 0 24 24">
+           <image href="assets/botttt/favicon.ico" height="24px" width="24px" />
+        </svg>
+    </div>
+
+    <!-- Chat Window --> 
+    <div class="chat-window" id="chatWindow">
+        <div class="chat-header">
+            <h1>Chat Support</h1>
+            <button class="close-btn" id="closeBtn">&times;</button>
+        </div>
+        <div class="chat-messages" id="chatMessages">
+            <div class="message bot">
+                <div class="message-content">
+                    Hello! How can I help you today?
+                </div>
+            </div>
+        </div>
+        <div class="typing-indicator" id="typingIndicator">
+            <div class="typing-dots">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <div class="chat-input">
+            <input type="text" id="messageInput" placeholder="Type your message...">
+            <button id="sendBtn">Send</button>
+        </div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+<script src="script.js"></script>
+</html>
